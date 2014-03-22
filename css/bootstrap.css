@@ -2143,14 +2143,26 @@ button.btn.small, input[type="submit"].btn.small {
   line-height: 14px;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #75BE0E;
 }
 .nav-tabs > li {
   margin-bottom: -1px;
 }
-.nav-tabs > li > a {
+.nav-tabs > li > a#nav-tabs-main {
+  font-size: 18px;
+  font-weight: bold;
   padding-top: 9px;
   padding-bottom: 9px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 0px;
+  border-color: #75BA0E;
+}
+
+.nav-tabs > li > a {
+  padding-top: 11px;
+  padding-bottom: 7px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
