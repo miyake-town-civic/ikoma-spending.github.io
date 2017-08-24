@@ -10,8 +10,8 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'ikoma_2017_ippan-kaikei';
-OpenSpending.year = '2017';
+OpenSpending.identifier = 'ikoma_2013_ippan-kaikei';
+OpenSpending.year = '2013';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
 
